@@ -5,3 +5,19 @@ Instalação Wine
 Regedit no Wine
 Intalação de pacotes 32-bit no Wine
 Índices Glossário de SCL
+
+
+O ROS2 possui um node que pode ser instanciado com
+ros2 run serial_driver serial_bridge --ros-args --params-file '/home/aluno/Desktop/new 1'
+param files indica a localização de um arquivo de config yaml
+o exemplo está em https://github.com/ros-drivers/transport_drivers/
+aqui está nossa implementação
+/**:
+  ros__parameters:
+    device_name: /dev/ttyS0
+    baud_rate: 96000
+    flow_control: none
+    parity: none
+    stop_bits: "1"
+temos que ver como podemos interagir com isso
+foi observado que este usa do lifecycle node, então é um bom começo ver como dá pra controlar o node
