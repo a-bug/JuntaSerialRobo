@@ -1,0 +1,30 @@
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   22 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In constructor ‘[01m[KSubscriber::Subscriber()[m[K’:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:16:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   16 |       "serial_read", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:30:33:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ was not declared in this scope
+   30 |   rclcpp::spin(std::make_shared<[01;31m[KMinimalSubscriber[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:30:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   30 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:30:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |   rclcpp::spin([01;31m[Kstd::make_shared<MinimalSubscriber>()[m[K);
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

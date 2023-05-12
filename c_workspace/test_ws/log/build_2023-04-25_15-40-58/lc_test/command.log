@@ -1,0 +1,2 @@
+Invoking command in '/home/aluno/test_ws/build/lc_test': /usr/bin/cmake /home/aluno/test_ws/src/lc_test -DCMAKE_INSTALL_PREFIX=/home/aluno/test_ws/install/lc_test
+Invoked command in '/home/aluno/test_ws/build/lc_test' returned '1': /usr/bin/cmake /home/aluno/test_ws/src/lc_test -DCMAKE_INSTALL_PREFIX=/home/aluno/test_ws/install/lc_test

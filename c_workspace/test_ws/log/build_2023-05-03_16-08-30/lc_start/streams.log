@@ -1,0 +1,48 @@
+[0.029s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.101s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.101s] [ 75%] Built target talker
+[2.107s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:20:46:[m[K [01;31m[Kerror: [m[K‘[01m[KUInt8MultiArray[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[2.107s]    20 |     void topic_callback(const std_msgs::msg::[01;31m[KUInt8MultiArray[m[K::SharedPtr msg) const
+[2.107s]       |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.107s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:20:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[2.107s]    20 |     void topic_callback(const std_msgs::msg::UInt8MultiArray::SharedPtr [01;31m[Kmsg[m[K) const
+[2.108s]       |                                                                         [01;31m[K^~~[m[K
+[2.108s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:20:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[2.108s]    20 |     void topic_callback[34m[K([m[Kconst std_msgs::msg::UInt8MultiArray::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+[2.108s]       |                        [34m[K~[m[K                                               [01;31m[K^[m[K[32m[K~~~[m[K
+[2.108s]       |                                                                        [32m[K)[m[K
+[2.108s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:20:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.108s]    20 |     void topic_callback(const std_msgs::msg::UInt8MultiArray::[01;31m[KSharedPtr[m[K msg) const
+[2.108s]       |                                                               [01;31m[K^~~~~~~~~[m[K
+[2.108s]       |                                                                        [32m[K;[m[K
+[2.109s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:20:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[2.109s]    20 |     void topic_callback(const std_msgs::msg::UInt8MultiArray::SharedPtr [01;31m[Kmsg[m[K) const
+[2.109s]       |                                                                         [01;31m[K^~~[m[K
+[2.145s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In constructor ‘[01m[KSubscriber::Subscriber()[m[K’:
+[2.145s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:15:64:[m[K [01;31m[Kerror: [m[K‘[01m[KUInt8MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.145s]    15 |       subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KUInt8MultiArray[m[K>(
+[2.146s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.150s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:15:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSubscriber::create_subscription<<expression error> >(const char [12], int, std::_Bind_helper<false, void (Subscriber::*)(...), Subscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[2.150s]    15 |       subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::UInt8MultiArray>([m[K
+[2.150s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.150s]    16 | [01;31m[K      "serial_read", 10, std::bind(&Subscriber::topic_callback, this, _1))[m[K;
+[2.150s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+[2.150s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.151s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.151s]                  from [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:5[m[K:
+[2.151s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.151s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[2.151s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.151s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.151s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:15:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.151s]    15 |       subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::UInt8MultiArray>([m[K
+[2.151s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[2.152s]    16 | [01;31m[K      "serial_read", 10, std::bind(&Subscriber::topic_callback, this, _1))[m[K;
+[2.152s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+[2.539s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+[2.539s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[2.540s] gmake: *** [Makefile:146: all] Error 2
+[2.542s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

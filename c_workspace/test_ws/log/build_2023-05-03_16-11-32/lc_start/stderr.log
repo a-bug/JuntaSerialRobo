@@ -1,0 +1,7 @@
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/uint8multiarray.hpp: No such file or directory
+    7 | #include [01;31m[K"std_msgs/msg/uint8multiarray.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

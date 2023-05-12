@@ -1,0 +1,16 @@
+[0.030s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o[0m
+[2.226s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[2.226s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+[2.226s]    22 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+[2.226s]       |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.926s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1
+[2.926s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[2.926s] gmake[1]: *** Waiting for unfinished jobs....
+[7.668s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[8.021s] [ 75%] Built target listener
+[8.022s] gmake: *** [Makefile:146: all] Error 2
+[8.024s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

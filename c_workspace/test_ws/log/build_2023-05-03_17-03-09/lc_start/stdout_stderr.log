@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o[0m
+[ 75%] Built target listener
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_components/register_node_macro.hpp: No such file or directory
+   20 | #include [01;31m[K"rclcpp_components/register_node_macro.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

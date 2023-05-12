@@ -1,0 +1,24 @@
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In lambda function:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:22:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kchar[m[K’
+   34 |         printf("%s",[[01;31m[Kchar[m[K*]msg->data);
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In lambda function:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kmsg[m[K’
+   34 |         printf("%s",[char*][01;31m[Kmsg[m[K->data);
+      |                            [01;31m[K^~~[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In lambda function:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   34 |         printf[01;36m[K([m[K"%s",[char*]msg->data);
+      |               [01;36m[K^[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 2 has type ‘[01m[KSubscriber::Subscriber()::<lambda(std_msgs::msg::UInt8MultiArray_<std::allocator<void> >::SharedPtr)>::<lambda()>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   34 |         printf("[01;35m[K%s[m[K",[char*]msg->data);
+      |                 [01;35m[K~^[m[K
+      |                  [01;35m[K|[m[K
+      |                  [01;35m[Kchar*[m[K
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:24:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |       []([01;35m[Kconst std_msgs::msg::UInt8MultiArray::SharedPtr msg[m[K) -> void
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

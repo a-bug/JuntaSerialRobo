@@ -1,0 +1,5 @@
+toggle
+    on:
+        send CJ
+    off:
+        send SJ

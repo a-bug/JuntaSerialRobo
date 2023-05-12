@@ -1,0 +1,37 @@
+[0.032s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.064s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found rclcpp_lifecycle: 16.0.3 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.235s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.243s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.337s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.368s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.557s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.622s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.703s] -- Configured cppcheck include dirs: 
+[0.703s] -- Configured cppcheck exclude dirs and/or files: 
+[0.703s] -- Added test 'lint_cmake' to check CMake code style
+[0.704s] -- Added test 'uncrustify' to check C / C++ code style
+[0.704s] -- Configured uncrustify additional arguments: 
+[0.705s] -- Added test 'xmllint' to check XML markup files
+[0.705s] -- Configuring done
+[0.718s] -- Generating done
+[0.720s] -- Build files have been written to: /home/aluno/test_ws/build/lc_start
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.755s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.780s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.780s] [ 50%] [32m[1mLinking CXX executable talker[0m
+[0.931s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.931s] (.text+0x1b): undefined reference to `main'
+[0.952s] collect2: error: ld returned 1 exit status
+[0.954s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:170: talker] Error 1
+[0.954s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.954s] gmake[1]: *** Waiting for unfinished jobs....
+[8.171s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[8.520s] [ 75%] Built target listener
+[8.521s] gmake: *** [Makefile:146: all] Error 2
+[8.522s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

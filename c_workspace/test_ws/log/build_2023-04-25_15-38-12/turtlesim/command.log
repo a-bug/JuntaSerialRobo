@@ -1,0 +1,1 @@
+Invoking command in '/home/aluno/test_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit/install/moveit_configs_utils:/opt/ros/rolling /usr/bin/cmake /home/aluno/test_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/aluno/test_ws/install/turtlesim

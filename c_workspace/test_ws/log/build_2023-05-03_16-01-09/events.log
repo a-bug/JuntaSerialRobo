@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000518] (-) JobUnselected: {'identifier': 'lc_test'}
+[0.001463] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001507] (lc_start) JobQueued: {'identifier': 'lc_start', 'dependencies': OrderedDict()}
+[0.001578] (lc_start) JobStarted: {'identifier': 'lc_start'}
+[0.029927] (lc_start) JobProgress: {'identifier': 'lc_start', 'progress': 'cmake'}
+[0.030508] (lc_start) JobProgress: {'identifier': 'lc_start', 'progress': 'build'}
+[0.031084] (lc_start) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aluno/test_ws/build/lc_start', '--', '-j8', '-l8'], 'cwd': '/home/aluno/test_ws/build/lc_start', 'env': OrderedDict([('KDE_FULL_SESSION', 'true'), ('PROFILEHOME', ''), ('LANGUAGE', ''), ('LC_TIME', 'pt_BR.UTF-8'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('USER', 'aluno'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1339'), ('XDG_SESSION_TYPE', 'x11'), ('KONSOLE_VERSION', '230400'), ('SHLVL', '2'), ('XCURSOR_SIZE', '24'), ('LD_LIBRARY_PATH', '/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/aluno/ws_moveit2/install/moveit_visual_tools/lib:/home/aluno/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/aluno/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/aluno/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/aluno/ws_moveit2/install/moveit_task_constructor_core/lib:/home/aluno/ws_moveit2/install/moveit_ros_control_interface/lib:/home/aluno/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/aluno/ws_moveit2/install/moveit_setup_assistant/lib:/home/aluno/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/aluno/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/aluno/ws_moveit2/install/moveit_setup_controllers/lib:/home/aluno/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/aluno/ws_moveit2/install/moveit_setup_framework/lib:/home/aluno/ws_moveit2/install/moveit_servo/lib:/home/aluno/ws_moveit2/install/moveit_ros_visualization/lib:/home/aluno/ws_moveit2/install/moveit_hybrid_planning/lib:/home/aluno/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/aluno/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/aluno/ws_moveit2/install/moveit_ros_warehouse/lib:/home/aluno/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/aluno/ws_moveit2/install/moveit_ros_perception/lib:/home/aluno/ws_moveit2/install/moveit_ros_move_group/lib:/home/aluno/ws_moveit2/install/moveit_planners_ompl/lib:/home/aluno/ws_moveit2/install/moveit_ros_planning/lib:/home/aluno/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/aluno/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/aluno/ws_moveit2/install/moveit_planners_chomp/lib:/home/aluno/ws_moveit2/install/moveit_kinematics/lib:/home/aluno/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/aluno/ws_moveit2/install/chomp_motion_planner/lib:/home/aluno/ws_moveit2/install/moveit_core/lib:/home/aluno/ws_moveit2/install/srdfdom/lib:/home/aluno/ws_moveit2/install/rviz_marker_tools/lib:/home/aluno/ws_moveit2/install/rosparam_shortcuts/lib:/home/aluno/ws_moveit2/install/moveit_task_constructor_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aluno'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/aluno'), ('LESS', '-R'), ('DESKTOP_SESSION', 'plasma'), ('ZSH', '/home/aluno/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/aluno/.gtkrc:/home/aluno/.config/gtkrc'), ('KCRASH_DUMP_ONLY', '1'), ('KDE_SESSION_VERSION', '5'), ('SHELL_SESSION_ID', 'e12c0c90ecf845b59ba8f028a4d2bdcb'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SYSTEMD_EXEC_PID', '1427'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('QT_EXCLUDE_GENERIC_BEARER', '1'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/aluno/test_ws/install:/home/aluno/ws_moveit2/install'), ('LOGNAME', 'aluno'), ('JOURNAL_STREAM', '8:28996'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('WINDOWID', '4194317'), ('_', '/home/aluno/.local/bin/colcon'), ('COLORFGBG', '15;0'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/aluno/.gtkrc-2.0:/home/aluno/.config/gtkrc-2.0'), ('PATH', '/home/aluno/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/home/aluno/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd537385cf4a14d57b4f5e244da1d53e1'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XCURSOR_THEME', 'breeze_cursors'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('MOZ_USE_XINPUT2', '1'), ('XAUTHORITY', '/tmp/xauth_qAxEzU'), ('XDG_SESSION_DESKTOP', 'KDE'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXMFivXI/agent.1251'), ('AMENT_PREFIX_PATH', '/home/aluno/test_ws/install/lc_start:/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/aluno/ws_moveit2/install/moveit_runtime:/home/aluno/ws_moveit2/install/moveit2_tutorials:/home/aluno/ws_moveit2/install/moveit:/home/aluno/ws_moveit2/install/moveit_planners:/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner:/home/aluno/ws_moveit2/install/moveit_visual_tools:/home/aluno/ws_moveit2/install/moveit_task_constructor_visualization:/home/aluno/ws_moveit2/install/moveit_task_constructor_demo:/home/aluno/ws_moveit2/install/moveit_task_constructor_capabilities:/home/aluno/ws_moveit2/install/moveit_task_constructor_core:/home/aluno/ws_moveit2/install/moveit_ros_control_interface:/home/aluno/ws_moveit2/install/moveit_plugins:/home/aluno/ws_moveit2/install/moveit_simple_controller_manager:/home/aluno/ws_moveit2/install/moveit_setup_assistant:/home/aluno/ws_moveit2/install/moveit_setup_srdf_plugins:/home/aluno/ws_moveit2/install/moveit_setup_core_plugins:/home/aluno/ws_moveit2/install/moveit_setup_controllers:/home/aluno/ws_moveit2/install/moveit_setup_app_plugins:/home/aluno/ws_moveit2/install/moveit_setup_framework:/home/aluno/ws_moveit2/install/moveit_servo:/home/aluno/ws_moveit2/install/moveit_ros:/home/aluno/ws_moveit2/install/moveit_ros_visualization:/home/aluno/ws_moveit2/install/moveit_hybrid_planning:/home/aluno/ws_moveit2/install/moveit_ros_planning_interface:/home/aluno/ws_moveit2/install/moveit_ros_benchmarks:/home/aluno/ws_moveit2/install/moveit_ros_warehouse:/home/aluno/ws_moveit2/install/moveit_ros_robot_interaction:/home/aluno/ws_moveit2/install/moveit_ros_perception:/home/aluno/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/aluno/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/aluno/ws_moveit2/install/moveit_ros_move_group:/home/aluno/ws_moveit2/install/moveit_planners_ompl:/home/aluno/ws_moveit2/install/moveit_ros_planning:/home/aluno/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/aluno/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aluno/ws_moveit2/install/moveit_planners_chomp:/home/aluno/ws_moveit2/install/moveit_kinematics:/home/aluno/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/aluno/ws_moveit2/install/chomp_motion_planner:/home/aluno/ws_moveit2/install/moveit_core:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/srdfdom:/home/aluno/ws_moveit2/install/rviz_marker_tools:/home/aluno/ws_moveit2/install/rosparam_shortcuts:/home/aluno/ws_moveit2/install/moveit_task_constructor_msgs:/home/aluno/ws_moveit2/install/moveit_resources_prbt_support:/home/aluno/ws_moveit2/install/moveit_resources:/home/aluno/ws_moveit2/install/moveit_resources_pr2_description:/home/aluno/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/aluno/ws_moveit2/install/moveit_resources_panda_description:/home/aluno/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/aluno/ws_moveit2/install/moveit_resources_fanuc_description:/home/aluno/ws_moveit2/install/moveit_common:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble'), ('LC_NAME', 'pt_BR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('COLCON_WS', '/home/aluno/ws_moveit2'), ('KDE_FORK_SLAVES', '1'), ('KONSOLE_DBUS_SERVICE', ':1.324'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('XDG_VTNR', '2'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/aluno/test_ws/build/lc_start'), ('XDG_CONFIG_DIRS', '/home/aluno/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/plasma:/home/aluno/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('PYTHONPATH', '/home/aluno/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/aluno/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/aluno/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/aluno/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aluno/test_ws/install/lc_start:/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/aluno/ws_moveit2/install/moveit_runtime:/home/aluno/ws_moveit2/install/moveit2_tutorials:/home/aluno/ws_moveit2/install/moveit:/home/aluno/ws_moveit2/install/moveit_planners:/home/aluno/ws_moveit2/install/pilz_industrial_motion_planner:/home/aluno/ws_moveit2/install/moveit_visual_tools:/home/aluno/ws_moveit2/install/moveit_task_constructor_visualization:/home/aluno/ws_moveit2/install/moveit_task_constructor_demo:/home/aluno/ws_moveit2/install/moveit_task_constructor_capabilities:/home/aluno/ws_moveit2/install/moveit_task_constructor_core:/home/aluno/ws_moveit2/install/moveit_ros_control_interface:/home/aluno/ws_moveit2/install/moveit_plugins:/home/aluno/ws_moveit2/install/moveit_simple_controller_manager:/home/aluno/ws_moveit2/install/moveit_setup_assistant:/home/aluno/ws_moveit2/install/moveit_setup_srdf_plugins:/home/aluno/ws_moveit2/install/moveit_setup_core_plugins:/home/aluno/ws_moveit2/install/moveit_setup_controllers:/home/aluno/ws_moveit2/install/moveit_setup_app_plugins:/home/aluno/ws_moveit2/install/moveit_setup_framework:/home/aluno/ws_moveit2/install/moveit_servo:/home/aluno/ws_moveit2/install/moveit_ros:/home/aluno/ws_moveit2/install/moveit_ros_visualization:/home/aluno/ws_moveit2/install/moveit_hybrid_planning:/home/aluno/ws_moveit2/install/moveit_ros_planning_interface:/home/aluno/ws_moveit2/install/moveit_ros_benchmarks:/home/aluno/ws_moveit2/install/moveit_ros_warehouse:/home/aluno/ws_moveit2/install/moveit_ros_robot_interaction:/home/aluno/ws_moveit2/install/moveit_ros_perception:/home/aluno/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/aluno/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/aluno/ws_moveit2/install/moveit_ros_move_group:/home/aluno/ws_moveit2/install/moveit_planners_ompl:/home/aluno/ws_moveit2/install/moveit_ros_planning:/home/aluno/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/aluno/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/aluno/ws_moveit2/install/moveit_planners_chomp:/home/aluno/ws_moveit2/install/moveit_kinematics:/home/aluno/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/aluno/ws_moveit2/install/chomp_motion_planner:/home/aluno/ws_moveit2/install/moveit_core:/home/aluno/ws_moveit2/install/srdfdom:/home/aluno/ws_moveit2/install/rviz_marker_tools:/home/aluno/ws_moveit2/install/rosparam_shortcuts:/home/aluno/ws_moveit2/install/moveit_task_constructor_msgs:/home/aluno/ws_moveit2/install/moveit_resources_prbt_support:/home/aluno/ws_moveit2/install/moveit_resources:/home/aluno/ws_moveit2/install/moveit_resources_pr2_description:/home/aluno/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/aluno/ws_moveit2/install/moveit_resources_panda_description:/home/aluno/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/aluno/ws_moveit2/install/moveit_resources_fanuc_description:/home/aluno/ws_moveit2/install/moveit_common:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.083135] (lc_start) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.083449] (lc_start) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.099834] (-) TimerEvent: {}
+[0.103984] (lc_start) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o\x1b[0m\n'}
+[0.104163] (lc_start) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o\x1b[0m\n'}
+[0.199971] (-) TimerEvent: {}
+[0.300358] (-) TimerEvent: {}
+[0.400661] (-) TimerEvent: {}
+[0.500958] (-) TimerEvent: {}
+[0.601266] (-) TimerEvent: {}
+[0.701588] (-) TimerEvent: {}
+[0.801892] (-) TimerEvent: {}
+[0.902172] (-) TimerEvent: {}
+[1.002460] (-) TimerEvent: {}
+[1.102744] (-) TimerEvent: {}
+[1.203026] (-) TimerEvent: {}
+[1.303324] (-) TimerEvent: {}
+[1.403609] (-) TimerEvent: {}
+[1.503895] (-) TimerEvent: {}
+[1.604187] (-) TimerEvent: {}
+[1.704493] (-) TimerEvent: {}
+[1.804802] (-) TimerEvent: {}
+[1.905172] (-) TimerEvent: {}
+[2.005470] (-) TimerEvent: {}
+[2.105769] (-) TimerEvent: {}
+[2.206064] (-) TimerEvent: {}
+[2.227339] (lc_start) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisher::Publisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.227543] (lc_start) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:22:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.227639] (lc_start) StderrLine: {'line': b'   22 |       500ms, std::bind(&\x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K::timer_callback, this));\n'}
+[2.227709] (lc_start) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.306180] (-) TimerEvent: {}
+[2.406488] (-) TimerEvent: {}
+[2.506784] (-) TimerEvent: {}
+[2.607079] (-) TimerEvent: {}
+[2.707371] (-) TimerEvent: {}
+[2.807671] (-) TimerEvent: {}
+[2.907970] (-) TimerEvent: {}
+[2.927502] (lc_start) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1\n'}
+[2.927821] (lc_start) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.927901] (lc_start) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.008077] (-) TimerEvent: {}
+[3.108384] (-) TimerEvent: {}
+[3.208670] (-) TimerEvent: {}
+[3.308951] (-) TimerEvent: {}
+[3.409246] (-) TimerEvent: {}
+[3.509548] (-) TimerEvent: {}
+[3.609840] (-) TimerEvent: {}
+[3.710137] (-) TimerEvent: {}
+[3.810432] (-) TimerEvent: {}
+[3.910729] (-) TimerEvent: {}
+[4.011032] (-) TimerEvent: {}
+[4.111329] (-) TimerEvent: {}
+[4.211639] (-) TimerEvent: {}
+[4.311932] (-) TimerEvent: {}
+[4.412243] (-) TimerEvent: {}
+[4.512620] (-) TimerEvent: {}
+[4.612919] (-) TimerEvent: {}
+[4.713196] (-) TimerEvent: {}
+[4.813492] (-) TimerEvent: {}
+[4.913805] (-) TimerEvent: {}
+[5.014082] (-) TimerEvent: {}
+[5.114359] (-) TimerEvent: {}
+[5.214639] (-) TimerEvent: {}
+[5.314915] (-) TimerEvent: {}
+[5.415193] (-) TimerEvent: {}
+[5.515482] (-) TimerEvent: {}
+[5.615771] (-) TimerEvent: {}
+[5.716074] (-) TimerEvent: {}
+[5.816381] (-) TimerEvent: {}
+[5.916694] (-) TimerEvent: {}
+[6.016983] (-) TimerEvent: {}
+[6.117271] (-) TimerEvent: {}
+[6.217553] (-) TimerEvent: {}
+[6.317839] (-) TimerEvent: {}
+[6.418126] (-) TimerEvent: {}
+[6.518410] (-) TimerEvent: {}
+[6.618697] (-) TimerEvent: {}
+[6.718987] (-) TimerEvent: {}
+[6.819277] (-) TimerEvent: {}
+[6.919564] (-) TimerEvent: {}
+[7.019852] (-) TimerEvent: {}
+[7.120140] (-) TimerEvent: {}
+[7.220441] (-) TimerEvent: {}
+[7.320715] (-) TimerEvent: {}
+[7.420998] (-) TimerEvent: {}
+[7.521256] (-) TimerEvent: {}
+[7.621549] (-) TimerEvent: {}
+[7.669499] (lc_start) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.721664] (-) TimerEvent: {}
+[7.821950] (-) TimerEvent: {}
+[7.922245] (-) TimerEvent: {}
+[8.022451] (lc_start) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[8.022622] (-) TimerEvent: {}
+[8.023311] (lc_start) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.025187] (lc_start) CommandEnded: {'returncode': 2}
+[8.098889] (lc_start) JobEnded: {'identifier': 'lc_start', 'rc': 2}
+[8.109471] (-) EventReactorShutdown: {}

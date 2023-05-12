@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[4.006s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.190s] [ 75%] Built target talker
+[7.867s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.235s] [100%] Built target listener
+[8.248s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[8.307s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/aluno/test_ws/build/lc_start
+[8.317s] -- Install configuration: ""
+[8.317s] -- Installing: /home/aluno/test_ws/install/lc_start/lib/lc_start/talker
+[8.322s] -- Set runtime path of "/home/aluno/test_ws/install/lc_start/lib/lc_start/talker" to ""
+[8.322s] -- Installing: /home/aluno/test_ws/install/lc_start/lib/lc_start/listener
+[8.360s] -- Set runtime path of "/home/aluno/test_ws/install/lc_start/lib/lc_start/listener" to ""
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/package_run_dependencies/lc_start
+[8.361s] -- Installing: /home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/parent_prefix_path/lc_start
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/environment/ament_prefix_path.sh
+[8.361s] -- Installing: /home/aluno/test_ws/install/lc_start/share/lc_start/environment/ament_prefix_path.dsv
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/environment/path.sh
+[8.361s] -- Installing: /home/aluno/test_ws/install/lc_start/share/lc_start/environment/path.dsv
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.bash
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.sh
+[8.361s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.zsh
+[8.362s] -- Installing: /home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.dsv
+[8.362s] -- Installing: /home/aluno/test_ws/install/lc_start/share/lc_start/package.dsv
+[8.362s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/packages/lc_start
+[8.362s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/cmake/lc_startConfig.cmake
+[8.362s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/cmake/lc_startConfig-version.cmake
+[8.362s] -- Up-to-date: /home/aluno/test_ws/install/lc_start/share/lc_start/package.xml
+[8.363s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/aluno/test_ws/build/lc_start

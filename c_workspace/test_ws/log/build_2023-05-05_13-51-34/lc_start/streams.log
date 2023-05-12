@@ -1,0 +1,14 @@
+[0.032s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[2.304s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In lambda function:
+[2.304s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd_msgs::msg::UInt8MultiArray[m[K’ {aka ‘[01m[Kstd_msgs::msg::UInt8MultiArray_<std::allocator<void> >[m[K’}
+[2.304s]    34 |         printf("%s",msg[01;31m[K->[m[Kdata.c_str());
+[2.305s]       |                        [01;31m[K^~[m[K
+[2.305s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:43:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing UInt8MultiArray = struct std_msgs::msg::UInt8MultiArray_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::UInt8MultiArray_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kget[m[K’
+[2.305s]    43 |         serializer.deserialize_message(msg.[01;31m[Kget[m[K(), &string_msg);
+[2.305s]       |                                            [01;31m[K^~~[m[K
+[4.670s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+[4.670s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+[4.670s] gmake: *** [Makefile:146: all] Error 2
+[4.673s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

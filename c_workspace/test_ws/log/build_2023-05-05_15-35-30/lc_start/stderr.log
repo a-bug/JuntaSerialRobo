@@ -1,0 +1,7 @@
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:[m[K In lambda function:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:34:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _data_type = class std::vector<unsigned char, std::allocator<unsigned char> >[m[K’ {aka ‘[01m[Kclass std::vector<unsigned char, std::allocator<unsigned char> >[m[K’} has no member named ‘[01m[Kbuffer[m[K’
+   34 |         printf("%s",msg->data.[01;31m[Kbuffer[m[K);
+      |                               [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+[0.035s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.113s] [ 50%] Built target listener
+[0.119s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o[0m
+[4.190s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.249s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.249s] (.text+0x1b): undefined reference to `main'
+[5.270s] collect2: error: ld returned 1 exit status
+[5.271s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:170: talker] Error 1
+[5.271s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[5.271s] gmake: *** [Makefile:146: all] Error 2
+[5.273s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

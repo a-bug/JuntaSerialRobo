@@ -5,7 +5,7 @@
 
 #include <rclcpp/rclcpp.hpp>
 //#include <serial/serial.h>
-#include <serial_driver/serial_bridge_node.hpp>
+#include "serial_driver/serial_driver.hpp"
 #include <std_msgs/msg/string.h>
 #include <std_msgs/msg/empty.h>
 #include <std_msgs/msg/float64.h>
@@ -16,6 +16,18 @@
 #include <vector>
 
 #define juntas_num 6
+
+using drivers::serial_driver::FlowControl;
+using drivers::serial_driver::Parity;
+using drivers::serial_driver::SerialDriver;
+using drivers::serial_driver::SerialPortConfig;
+using drivers::serial_driver::StopBits;
+
+static constexpr const char * dev_name = "/dev/ttyS0";
+static constexpr uint32_t baud = 9600;
+static constexpr FlowControl fc = FlowControl::NONE;
+static constexpr Parity pt = Parity::NONE;
+static constexpr StopBits sb = StopBits::ONE;
 
 class joint
 {
@@ -34,9 +46,6 @@ public:
 
 //serial::Serial ser;
 
-drivers::serial_driver::SerialPort sp;
-
-
 
 std::vector<joint> joints_select;
 
@@ -44,4 +53,14 @@ using std_msgs::msg::UInt8MultiArray;
 
 UInt8MultiArray::SharedPtr serial_message;
 
+
+int main())
+{
+  IoContext ctx;
+  SerialPortConfig config(baud, fc, pt, sb);
+  SerialDriver driver(ctx);
+
+  driver.init_port(dev_name, config);
+
+}
 

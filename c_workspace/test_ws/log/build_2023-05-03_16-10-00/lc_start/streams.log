@@ -1,0 +1,12 @@
+[0.031s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.099s] [ 50%] Built target talker
+[0.103s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.297s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: No such file or directory
+[0.297s]     6 | #include [01;31m[K"std_msgs/msg/String.hpp"[m[K
+[0.298s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.298s] compilation terminated.
+[0.300s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+[0.300s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.300s] gmake: *** [Makefile:146: all] Error 2
+[0.302s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

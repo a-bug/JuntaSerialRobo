@@ -1,0 +1,8 @@
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:[m[K In constructor ‘[01m[KPublisher::Publisher()[m[K’:
+[01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   22 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

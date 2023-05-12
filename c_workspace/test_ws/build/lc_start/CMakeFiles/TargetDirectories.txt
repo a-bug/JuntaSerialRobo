@@ -1,0 +1,10 @@
+/home/aluno/test_ws/build/lc_start/CMakeFiles/uninstall.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/lc_start_uninstall.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/listener.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/test.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/edit_cache.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/rebuild_cache.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/list_install_components.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/install.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/install/local.dir
+/home/aluno/test_ws/build/lc_start/CMakeFiles/install/strip.dir

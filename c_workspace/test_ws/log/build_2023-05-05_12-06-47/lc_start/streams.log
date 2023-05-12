@@ -1,0 +1,18 @@
+[0.032s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.104s] [ 25%] [32m[1mLinking CXX executable talker[0m
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.261s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.261s] (.text+0x1b): undefined reference to `main'
+[0.281s] collect2: error: ld returned 1 exit status
+[0.282s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:170: talker] Error 1
+[0.283s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.283s] gmake[1]: *** Waiting for unfinished jobs....
+[0.332s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_components/register_node_macro.hpp: No such file or directory
+[0.332s]     9 | #include [01;31m[K"rclcpp_components/register_node_macro.hpp"[m[K
+[0.332s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.332s] compilation terminated.
+[0.333s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+[0.334s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.334s] gmake: *** [Makefile:146: all] Error 2
+[0.336s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

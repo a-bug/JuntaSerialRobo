@@ -1,0 +1,11 @@
+[0.033s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.106s] [ 50%] Built target listener
+[0.106s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/sr_pub.cpp.o[0m
+[2.247s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_pub.cpp:36:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K:[m[K’ before ‘[01m[KSerializedMessageTalker[m[K’
+[2.247s]    36 |   public[01;31m[K [m[K[32m[KSerializedMessageTalker[m[K(const rclcpp::NodeOptions & options)
+[2.247s]       |         [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.247s]       |         [32m[K:[m[K
+[3.009s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/sr_pub.cpp.o] Error 1
+[3.009s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[3.009s] gmake: *** [Makefile:146: all] Error 2
+[3.012s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

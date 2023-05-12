@@ -1,0 +1,16 @@
+/home/aluno/test_ws/install/lc_start/lib/lc_start/listener
+/home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/package_run_dependencies/lc_start
+/home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/parent_prefix_path/lc_start
+/home/aluno/test_ws/install/lc_start/share/lc_start/environment/ament_prefix_path.sh
+/home/aluno/test_ws/install/lc_start/share/lc_start/environment/ament_prefix_path.dsv
+/home/aluno/test_ws/install/lc_start/share/lc_start/environment/path.sh
+/home/aluno/test_ws/install/lc_start/share/lc_start/environment/path.dsv
+/home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.bash
+/home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.sh
+/home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.zsh
+/home/aluno/test_ws/install/lc_start/share/lc_start/local_setup.dsv
+/home/aluno/test_ws/install/lc_start/share/lc_start/package.dsv
+/home/aluno/test_ws/install/lc_start/share/ament_index/resource_index/packages/lc_start
+/home/aluno/test_ws/install/lc_start/share/lc_start/cmake/lc_startConfig.cmake
+/home/aluno/test_ws/install/lc_start/share/lc_start/cmake/lc_startConfig-version.cmake
+/home/aluno/test_ws/install/lc_start/share/lc_start/package.xml

@@ -1,0 +1,11 @@
+[0.030s] Invoking command in '/home/aluno/test_ws/build/lc_start': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8
+[0.096s] [ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/sr_sub.cpp.o[0m
+[0.096s] [ 75%] Built target talker
+[0.292s] [01m[K/home/aluno/test_ws/src/lc_start/src/sr_sub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/uint8multiarray.hpp: No such file or directory
+[0.292s]     7 | #include [01;31m[K"std_msgs/msg/uint8multiarray.hpp"[m[K
+[0.293s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.293s] compilation terminated.
+[0.294s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/sr_sub.cpp.o] Error 1
+[0.295s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.295s] gmake: *** [Makefile:146: all] Error 2
+[0.297s] Invoked command in '/home/aluno/test_ws/build/lc_start' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aluno/ws_moveit2/install/moveit_configs_utils:/home/aluno/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/aluno/test_ws/build/lc_start -- -j8 -l8

@@ -1,0 +1,5 @@
+[console_scripts]
+convo = pyconvo.convo:main
+logger = pyconvo.logger:main
+talker = pyconvo.talker:main
+

@@ -1,0 +1,18 @@
+-- Found ament_cmake: 1.5.3 (/opt/ros/rolling/share/ament_cmake/cmake)
+-- Found rclcpp_lifecycle: 19.3.0 (/opt/ros/rolling/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_generator_c: 3.4.0 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 3.4.0 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.0.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.5.1 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 4.7.0 (/opt/ros/rolling/share/std_msgs/cmake)
+[31mCMake Error at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+  ament_target_dependencies() the first argument must be a valid target name
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (ament_target_dependencies)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/aluno/test_ws/build/lc_test/CMakeFiles/CMakeOutput.log".
