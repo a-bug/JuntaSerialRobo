@@ -1,6 +1,5 @@
 import rclpy
 from rclpy.node import Node
-from rclpy.timer import Rate
 
 from pause import milliseconds
 
