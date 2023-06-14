@@ -89,7 +89,7 @@
 
 Alguns processos industriais dependem do controle de pose de robôs manipuladores com certa precisão, o que geralmente requer equipamentos de alta qualidade e custo. Pesquisas realizadas no laboratório LGI da UFSC utilizando processamento de imagens, uma câmera de alto desempenho e marcadores fiduciais já foram desenvolvidas e apresentaram resultados de precisão competitivos comparado à equipamentos de medição sofisticados. Neste trabalho, foram empregadas duas webcams como uma alternativa acessível e barata em relação à câmeras de alta precisão para medir a pose de uma Plataforma de Stewart utilizando três marcadores fiduciais. Foram fixados três marcadores ArUco em uma Plataforma de Stewart e foi realizada a medição da pose com o sistema estéreo desenvolvido. Inicialmente as câmeras foram calibradas utilizando um \textit{checkerboard} e algoritmos da biblioteca OpenCV para obter os parâmetros de câmera a serem utilizados no processamento das imagens. A detecção e cálculo de pose com os marcadores fiduciais é realizada pela biblioteca ArUco, usando uma aplicação em ROS em C++ adaptada para utilizar duas webcams. Foram aplicadas duas estratégias para a medição de pose, uma utilizando a biblioteca ArUco e outra adicionando um algoritmo de fotogrametria. Um sistema de medição externo com uma estação total foi usado para realizar a correlação entre os sistemas de coordenadas da Plataforma de Stewart e do sistema estéreo desenvolvido. Ambas as estratégias se mostraram equiparáveis e resultaram em erros médios de translação inferiores a 13 mm, e de orientação inferiores a 1.1 graus, em relação à posição nominal da Plataforma de Stewart.
 
- \textbf{Palavras chave} : ROS, marcadores fiduciais, OpenCV, fotogrametria, ArUco,  Plataforma de Stewart, medição de pose.
+ \textbf{Palavras chave} : ROS, ROS control, comunicaçao serial.
 
 
  %\tableofcontents
@@ -100,7 +100,7 @@ Alguns processos industriais dependem do controle de pose de robôs manipuladore
 
 
 
-Exemplo de citação \cite{gallimore2018robot} \cite{gallimore2018robot}
+%Exemplo de citação \cite{gallimore2018robot} \cite{gallimore2018robot}
 
 %\bibliographystyle{plain}
 \bibliography{references}
