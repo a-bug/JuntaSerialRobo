@@ -1,0 +1,79 @@
+[
+    {
+    "id": "0",
+    "date": "2023-03-05",
+    "title": "Inicio",
+    "author": "Michael",
+    "ongoing": "Entrada na IC. Apresentação do projeto"
+    },
+    {
+    "id": "1",
+    "date": "2023-03-12",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Optado upgrade para ROS2. Atualizado ubuntu para 22.04 LTS. ROS Rolling optado, mais tarde trocado por Humble."
+    },
+    {
+    "id": "2",
+    "date": "2023-03-19",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "ROS2 funcionando. Danilo começou a participar da IC como voluntaŕio."
+    },
+    {
+    "id": "3",
+    "date": "2023-03-26",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Trocado comunicação USB->RS232 para IO direto. Testes com ferramentas proprietárias  "
+    },
+    {
+    "id": "4",
+    "date": "2023-04-02",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Estudo de conceitos teóricos de ROS"
+    },
+    {
+    "id": "5",
+    "date": "2023-04-09",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Nodes de ROS2, Serial Bridge Node"
+    },
+    {
+    "id": "6",
+    "date": "2023-04-16",
+    "title": "",
+    "author": "Michael",
+    "ongoing": " "
+    },
+    {
+    "id": "7",
+    "date": "2023-04-23",
+    "title": "",
+    "author": "Michael",
+    "ongoing": ""
+    },
+    {
+    "id": "8",
+    "date": "2023-04-30",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Inicio pyconvo"
+    },
+    {
+    "id": "9",
+    "date": "2023-05-07",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Finalização pyconvo"
+    },
+    {
+    "id": "10",
+    "date": "2023-03-14",
+    "title": "",
+    "author": "Michael",
+    "ongoing": "Inicio de foco no artigo"
+    }
+]

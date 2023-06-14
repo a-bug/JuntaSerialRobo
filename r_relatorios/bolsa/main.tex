@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper,oneside,english, brazil]{abntex2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%PACOTES A SEREM INCLUÍDOS%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{hyphenat}
+\usepackage{calrsfs}
+\usepackage{indentfirst}
+\usepackage{microtype} 
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{helvet}
+\usepackage[bottom]{footmisc}
+\usepackage{catchfilebetweentags}
+\usepackage{enumerate}
+\usepackage{lscape}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{titling}
+\usepackage{footmisc}
+\usepackage{scrextend}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage{nomencl}
+
+%Color packages
+\usepackage{transparent}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+
+%Table packages
+\usepackage{tabu}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{multirow}
+
+%Equation packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amstext}
+\usepackage{sansmath}
+\usepackage{bm}
+\usepackage{breqn}
+\usepackage{mathtools}
+
+%Image package
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{geometry}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%NOME DO AUTOR, TÍTULO DO TRABALHO E ANO%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\aaluno}{Michael Luis Weiss}
+\newcommand{\atitulo} {Desenvolvimento de um sistema de comunicação serial para controle com ROS2}
+\newcommand{\aano}{2023}
+\newcommand{\acurso}{Ciência e Tecnologia}
+\newcommand{\aorientador}{Orientador: Prof. Dr. Roberto Simoni}
+% Roberto Simoni Ramal: 2632	 Sala: U264
+% E-mail: roberto.emc@gmail.com
+% http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4248505H7
+\newcommand{\acoorientador}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%DEFINIÇÕES DE PRÊAMBULO%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ExecuteMetaData[settings.tex]{preambleTag}
+\pagestyle{plain}
+\pagenumbering{arabic}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%CAPA E FOLHA DE ROSTO%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\ExecuteMetaData[settings.tex]{capaTag}
+
+
+
+\textbf{Resumo}
+
+Alguns processos industriais dependem do controle de pose de robôs manipuladores com certa precisão, o que geralmente requer equipamentos de alta qualidade e custo. Pesquisas realizadas no laboratório LGI da UFSC utilizando processamento de imagens, uma câmera de alto desempenho e marcadores fiduciais já foram desenvolvidas e apresentaram resultados de precisão competitivos comparado à equipamentos de medição sofisticados. Neste trabalho, foram empregadas duas webcams como uma alternativa acessível e barata em relação à câmeras de alta precisão para medir a pose de uma Plataforma de Stewart utilizando três marcadores fiduciais. Foram fixados três marcadores ArUco em uma Plataforma de Stewart e foi realizada a medição da pose com o sistema estéreo desenvolvido. Inicialmente as câmeras foram calibradas utilizando um \textit{checkerboard} e algoritmos da biblioteca OpenCV para obter os parâmetros de câmera a serem utilizados no processamento das imagens. A detecção e cálculo de pose com os marcadores fiduciais é realizada pela biblioteca ArUco, usando uma aplicação em ROS em C++ adaptada para utilizar duas webcams. Foram aplicadas duas estratégias para a medição de pose, uma utilizando a biblioteca ArUco e outra adicionando um algoritmo de fotogrametria. Um sistema de medição externo com uma estação total foi usado para realizar a correlação entre os sistemas de coordenadas da Plataforma de Stewart e do sistema estéreo desenvolvido. Ambas as estratégias se mostraram equiparáveis e resultaram em erros médios de translação inferiores a 13 mm, e de orientação inferiores a 1.1 graus, em relação à posição nominal da Plataforma de Stewart.
+
+ \textbf{Palavras chave} : ROS, marcadores fiduciais, OpenCV, fotogrametria, ArUco,  Plataforma de Stewart, medição de pose.
+
+
+ %\tableofcontents
+
+
+\chapter{Introdução}
+
+
+
+
+Exemplo de citação \cite{gallimore2018robot} \cite{gallimore2018robot}
+
+%\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

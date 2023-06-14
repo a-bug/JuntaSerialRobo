@@ -1,0 +1,173 @@
+%<*preambleTag>
+
+\newcounter{savepage}
+
+\usepackage{hyphenat}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\hyphenchar\font=-1
+\sloppy
+
+\pagenumbering{gobble}
+
+\setlist{topsep=0cm, noitemsep}
+
+\renewcommand{\chapterheadstart}{\vspace*{\beforechapskip}}
+\setlength\beforechapskip{0pt}% MODIFICADO 45
+\setlength\afterchapskip{30pt}% MODIFICADO 30
+%MODIFICADO top=3cm
+\geometry{top=3cm, bottom=2cm, left=3cm, right=2cm}
+\newcommand{\thickhat}[1]{\mathbf{\hat{\text{$#1$}}}}
+\deffootnote[0.65em]{0.65em}{0em}{\textsuperscript{\makebox[0em][r]{\thefootnotemark\ }}}
+\DeclareCaptionFont{mysize}{\fontsize{12}{0.0}\selectfont}
+\captionsetup{font=mysize}
+
+%%%%%%%%%%%%%
+%%PREÂMBULO%%
+%%%%%%%%%%%%%
+\frenchspacing 
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[alf, abnt-etal-list=3, abnt-emphasize=bf,abnt-last-names=bibtex, abnt-etal-cite=3]{abntex2cite}	% Citações padrão ABNT
+\bibliographystyle{abntex2-alf}
+\renewcommand{\bibname}{Referências}
+
+\makeatletter
+\hypersetup{
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2}, 
+	colorlinks=true,  
+	linkcolor=black,
+	citecolor=black, 
+	filecolor=black, 
+	urlcolor=black,
+	bookmarksdepth=4
+}
+
+%TOC Depth
+\hypersetup{bookmarksopen=true,bookmarksopenlevel=4}
+\setcounter{tocdepth}{4}
+
+\makeatother
+
+\setlength{\parindent}{1.5cm} % Tamanho do parágrafo
+\setlength{\ABNTEXcitacaorecuo}{2.5cm}%4cm-1.5cm
+\setlength{\intextsep}{0cm} %Espaçamento entre texto e figura
+\setlength{\parskip}{0cm} % Espaçamento entre um parágrafo e outro
+
+\makeindex
+
+\newcommand{\apreambulo}{Relatório PIBIC
+%Trabalho de Conclusão de Curso apresentado como requisito parcial para obtenção do título de Bacharel em~\acurso, no curso~\acurso~da Universidade Federal de Santa Catarina, Centro Tecnológico de Joinville. \break \break \aorientador \break \break \acoorientador
+}
+\newcommand{\acidade}{Joinville}
+
+\newcommand{\auniversidade}{
+	\begin{SingleSpace}
+		UNIVERSIDADE FEDERAL DE SANTA CATARINA \\
+		CENTRO TECNOLÓGICO DE JOINVILLE \\
+		\MakeUppercase{CURSO DE~\acurso}\\
+	\end{SingleSpace}
+}
+
+%MakeNomenclature
+\makenomenclature
+\renewcommand*{\nomname}{LISTA DE SIGLAS}
+
+%</preambleTag>
+
+%<*capaTag>
+\thispagestyle{empty}
+
+\begin{capa}
+	\begin{center}
+		
+		\auniversidade
+		\vfill
+		 
+	
+				
+		\MakeUppercase{\atitulo} \\
+		\vfill
+		\MakeUppercase{ALUNA: \aaluno}\\
+		\MakeUppercase{\aorientador} \\
+		\vfill
+		
+	
+		\acidade, 		\aano
+		
+	\end{center}
+\end{capa}
+
+
+%SEGUNDA PAGINA
+% \begin{capa}
+% 	\begin{center}
+% 		\thispagestyle{empty}
+		      	      
+% 		\MakeUppercase{\aaluno}\\
+% 		\vspace{11.55cm}
+ 
+% 		\MakeUppercase{\atitulo}   
+% 	\end{center}
+% 	%\vspace{-0.75cm}
+% 		\vspace{1cm}	
+% 		 {		
+% 			\SingleSpacing \hspace*{7.5cm} \begin{minipage}{8.5cm}
+% 				{\apreambulo}
+% 			\end{minipage}
+		
+% 		}
+% 		\vfill
+% 	\begin{center}
+% 		\acidade \\
+% 		\aano
+% 	\end{center}
+% \end{capa}
+
+\textual
+
+%</capaTag>
+
+%<*listOfFiguresTag>
+
+\listoffigures*
+\newpage
+
+%</listOfFiguresTag>
+
+%<*listOfTablesTag>
+
+\listoftables*
+\newpage
+
+%</listOfTablesTag>
+
+%<*tableOfContentsTag>
+
+%\renewcommand*{\contentsname}{SUM\'{A}RIO}
+
+\tableofcontents*
+\newpage
+
+%</tableOfContentsTag>
+
+%<*numberingTag>
+
+\setcounter{savepage}{\arabic{page}}
+
+\pagenumbering{arabic}
+
+\setcounter{page}{\thesavepage+1}
+
+%</numberingTag>
+
+%<*nomenclatureTag>
+
+\printnomenclature
+\newpage
+
+%</nomenclatureTag>

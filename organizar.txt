@@ -1,0 +1,9 @@
+
+uso do wine para uso de programas específicos
+manual SCL
+emails sobre ROS
+serial bridge node
+ubuntu
+urdf
+ROS2
+moveit
