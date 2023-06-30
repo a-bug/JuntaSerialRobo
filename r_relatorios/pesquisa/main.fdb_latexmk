@@ -1,21 +1,21 @@
 # Fdb version 4
-["bibtex main"] 1686746386 "main.aux" "main.bbl" "main" 1686746655 0
+["bibtex main"] 1688090042 "main.aux" "main.bbl" "main" 1688090043 0
   "./abntex2-alf.bst" 1686746231 60064 0819ac8568f9a482510a46e3a8a6f605 ""
   "./abntex2-options.bib" 1686746231 5396 4eb260dac60f150ae608d45252853090 ""
   "./references.bib" 1686746231 298 3e6d36cf3899f677beb120e113582c64 ""
-  "main.aux" 1686746654 1967 017289560332426cdb581509b0afacf2 "pdflatex"
+  "main.aux" 1688090043 5681 f9109ba54f003032a6b4b0f78793c94d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1686746253 "main.idx" "main.ind" "main" 1686746655 0
-  "main.idx" 1686746654 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1686746253 "main.idx" "main.ind" "main" 1688090043 0
+  "main.idx" 1688090042 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1686746653 "/home/moon/mock-port/r_relatorios/pesquisa/main.tex" "main.pdf" "main" 1686746655 0
-  "/home/moon/mock-port/r_relatorios/pesquisa/main.tex" 1686746653 4101 62c47765b22cb02e701c4650d080809e ""
+["pdflatex"] 1688090042 "/home/moon/mock-port/r_relatorios/pesquisa/main.tex" "main.pdf" "main" 1688090043 0
+  "/home/moon/mock-port/r_relatorios/pesquisa/main.tex" 1688090040 4718 2c4978d9154b5ff67e39cc678a279e00 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1680514707 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1680514707 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1680514707 4484 b828043cbd581d289d955903c1339981 ""
@@ -240,10 +240,10 @@
   "abntex2.cls" 1686746231 36565 62daeb8355986ac2d2d65f9590c4e995 ""
   "abntex2abrev.sty" 1686746231 4703 c09bc216a7a951c544ebf85acdfdbec9 ""
   "abntex2cite.sty" 1686746231 41423 a89e7383c2b0a64588bf9617f29323c1 ""
-  "main.aux" 1686746654 1967 017289560332426cdb581509b0afacf2 "pdflatex"
-  "main.bbl" 1686746386 227 d84c02311c5966f0b465e2fbb354c9df "bibtex main"
+  "main.aux" 1688090043 5681 f9109ba54f003032a6b4b0f78793c94d "pdflatex"
+  "main.bbl" 1688090042 227 d84c02311c5966f0b465e2fbb354c9df "bibtex main"
   "main.ind" 1686746253 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.tex" 1686746653 4101 62c47765b22cb02e701c4650d080809e ""
+  "main.tex" 1688090040 4718 2c4978d9154b5ff67e39cc678a279e00 ""
   "settings.tex" 1686746574 3422 ba4161f65493d76a16ce540828a175fe ""
   (generated)
   "main.aux"

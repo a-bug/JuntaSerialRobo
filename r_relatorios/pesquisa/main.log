@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.10)  14 JUN 2023 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.4.10)  29 JUN 2023 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1499,29 +1499,33 @@ l.98 \chapter
 
 
 
-] (./main.bbl [2
+] [2
+
+] [3
+
+] (./main.bbl [4
 
 ]
 bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-) [3
+) [5
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 37645 strings out of 476025
- 686767 string characters out of 5796532
+ 37705 strings out of 476025
+ 687379 string characters out of 5796532
  1858388 words of memory out of 5000000
- 57422 multiletter control sequences out of 15000+600000
- 532687 words of font info for 85 fonts, out of 8000000 for 9000
+ 57444 multiletter control sequences out of 15000+600000
+ 539217 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,106p,1809b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 108i,12n,106p,1809b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (4 pages, 29910 bytes).
+Output written on main.pdf (6 pages, 32617 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 22557 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 30845 words of extra memory for PDF output out of 35830 (max. 10000000)
 
